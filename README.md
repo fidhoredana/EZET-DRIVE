@@ -7,6 +7,7 @@
 ## ⚡ EZET-DRIVE.py ⚡
 - Bulk download Google Drive by url using Python!✨
 - LIGHT and FAST!!!
+- Progress bar for each download process
 - Downloaded files are stored with the same name on Google Drive
 - Files with the same name from different URLs will remain and not be replaced
 - Automatically re-download in case of failed download
@@ -26,7 +27,11 @@
 
 - Edit `url.txt` with a list of urls to download with a *new line* as separator
     
-    `nano url.txt` or if you prefer to use vi `vi url.txt`
+    `nano url.txt`
+    
+    or if you prefer to use vi
+    
+    `vi url.txt`
     
     Example:
 
